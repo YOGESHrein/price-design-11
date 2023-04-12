@@ -1,0 +1,95 @@
+body{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+h1{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 2.5em;
+    margin-top: 30px;
+    font-family: 'Oxygen', sans-serif;
+}
+.pricing-area{
+    padding: 45px 0;
+    text-align: center;
+}
+.single-pricing{
+    background: #f5f0f1;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all 0.5s ease;
+    border-radius: 50px;
+    width: 270px;
+    display: inline-block;
+    box-sizing: border-box;
+
+
+}
+
+.card1{
+    padding: 15px;
+
+}
+.card2{
+    padding: 15px;
+    background: #6549dc;
+    border-radius: 50px;
+    color: #fff;
+
+}
+.deal-type{
+
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #000000;
+    font-family: sans-serif;
+
+
+}
+.card1 p,.card2 p{
+    font-size: .9em;
+}
+
+.price .money{
+    font-size: 70px;
+    font-weight: 900;
+}
+.price .money sup{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+.btn1{
+    background: #6549dc;
+    border: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 50px;
+}
+.btn2{
+    background: #fff;
+    border: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    padding: 10px 30px;
+    color: #000000;
+    border-radius: 50px;
+}
+
+.single-pricing:hover{
+    transform: scale(1.05);
+}
+@media (max-width: 992px){
+    .single-pricing{
+        margin-bottom: 30px;
+        
+    }
+}

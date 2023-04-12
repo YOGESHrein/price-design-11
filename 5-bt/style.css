@@ -1,0 +1,138 @@
+body{
+background-color: #eeeaea;
+}
+.pricing .pricing-item {
+    padding: 20px;
+    box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
+    background: #c8e7ff;
+    position: relative;
+    border-radius: 20px 20px 50px 50px;
+    width: 300px;
+
+  }
+  .pricing h2{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  .pricing h3 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #03045e;
+    text-align: center;
+  }
+  
+  .pricing .icon {
+    margin: 30px auto 30px auto;
+    width: 40px;
+    height: 40px;
+    background: #0077b6;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    transform-style: preserve-3d;
+  }
+  
+  .pricing .icon i {
+    color: #fff;
+    font-size: 20px;
+    transition: ease-in-out 0.3s;
+    line-height: 0;
+  }
+  
+  .pricing .icon::before {
+    position: absolute;
+    content: "";
+    height: 60px;
+    width: 60px;
+    border-radius: 30%;
+    background: #0096c7;
+    transition: all 0.3s ease-out 0s;
+    transform: translateZ(-1px);
+  }
+  
+  .pricing .icon::after {
+    position: absolute;
+    content: "";
+    height: 75px;
+    width: 75px;
+    border-radius: 30%;
+    background: #48cae4;
+    transition: all 0.3s ease-out 0s;
+    transform: translateZ(-2px);
+  }
+  
+  .pricing h4 {
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    font-family: serif;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .pricing h4 sup {
+    font-size: 28px;
+  }
+  
+  .pricing h4 span {
+    color: #32373b;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .pricing ul {
+    padding: 20px 0;
+    list-style: none;
+    color: #000000;
+    text-align: left;
+    line-height: 20px;
+  }
+  
+  .pricing ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .pricing ul i {
+    color: #240046;
+    font-size: 24px;
+    padding-right: 3px;
+  }
+  .pricing .buy-btn {
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid #036156;
+    transition: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: 0.3s;
+    text-decoration: none;
+    background-color: #0077b6;
+  }
+  
+  .pricing .buy-btn:hover {
+    background: transparent;
+    color: #0e0d0d;
+  }
+  
+  .pricing .featured {
+    z-index: 10;
+    background-color: #c0fdff;
+  }
+  .pricing .featured-2{
+    background-color: #90e0ef;
+  }
+  
+  @media (min-width: 992px) {
+    .pricing .featured {
+      transform: scale(1.1);
+    }
+  }
